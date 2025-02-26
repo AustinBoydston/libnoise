@@ -1,8 +1,11 @@
 # http://www.linux-magazin.de/Heft-Abo/Ausgaben/2007/02/Mal-ausspannen
 
-cmake_minimum_required(VERSION 3.0)
+cmake_minimum_required(VERSION 3.5)
 
 set(LIBNOISE_VERSION "1.0.0-cmake")
+
+#Set the project
+project(libnoise)
 
 #----------------------------------------
 # Provide an option for the user to select (default given; otherwhise pass -Doption=ON to cmake)
